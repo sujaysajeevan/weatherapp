@@ -1,0 +1,103 @@
+
+body {
+    /* background-image: url(https://i.pinimg.com/originals/be/af/eb/beafebc0d7911ea07b2f457cf5a25f30.gif); */
+
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+
+#box {
+    color: rgb(232, 7, 7);
+    padding: em;
+    border-radius: 10px;
+    font-family: 'Rubik Bubbles';
+    animation: fadeIn 1s linear;
+    box-shadow: 0 0 10px rgba(199, 191, 191, 0.3);
+
+    
+}
+
+
+
+.search_bar:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+body {
+    /* background-image: url(https://i.pinimg.com/originals/be/af/eb/beafebc0d7911ea07b2f457cf5a25f30.gif); */
+    background-image: url('https://cdn.wallpapersafari.com/31/16/se9FDB.gif');
+
+     
+     /* background-size: 100% 1200px; */
+     background-position: center;  
+  }
+
+
+#box {
+    color: white;
+    padding: 2em;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to top, rgba(18, 18, 17, 0.8), rgba(132, 71, 100, 0.452));
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s linear;
+    
+}
+.card-body {
+    text-align: left;
+
+}
+
+
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

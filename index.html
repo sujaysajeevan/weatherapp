@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Rubik+Bubbles&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-4 col-sm-8">
+                <div class="card text-center" id="box">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <input type="text" class="form-control search_bar" id="inputText" placeholder="Enter Your location">
+                        </div>
+                        <div>
+                        <button type="button" class="btn btn-warning  " id="button" onclick="search();">Search</button>
+                        <button type="button" class="btn btn-danger" id="button" onclick="clearWeather();">Clear</button>
+                        </div>
+                        
+                    </div>
+                    <div class="card-body " id="weatherresult">
+                        <h2 class="city">Temp :</h2>
+                        <h2 class="temp"></h2>
+                        <div class="description">Sky condition:</div>
+                        <div class="humidity">Humidity Level:</div>
+                        <div class="wind">Wind Speed:</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
